@@ -145,6 +145,64 @@ top: -5px;
   height: 100vh;
   width: 220vh;
 }
+/* profile container */
+div.profile_div_container {
+  position: relative;
+  left: -100px;
+  width: 800px;
+  height: 400px;
+  /* border: 3px solid red; */
+}
+/* content div */
+div.right_side {
+  float: right;
+  font-size: 25px;
+  left: 150px;
+  width: 500px;
+  height: 300px;
+  padding-right: 60px;
+  /* border: 3px solid green; */
+}
+div.right_side p{
+  color:#888282;
+  word-wrap: break-word
+} 
+/* Profile img */
+div.left_side {
+  position: absolute;
+  left: auto;
+  width: 240px;
+  height: 240px;
+}   
+div.left_side img{
+  padding: 15px 15px 15px 15px;
+  border-radius: 50%;
+  opacity: 0.86;
+  filter: alpha(opacity=80);
+}
+div.left_side img:hover{
+  opacity: 0.96;
+  filter: alpha(opacity=96);
+}
+div.left_side .links {
+  align-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+div.left_side .links a{
+  display: inline-block;
+  
+}
+/* git, linked in links */
+div.left_side .links a .fa{
+  display: inline-block;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  position: relative;
+}
+
 
 
 
