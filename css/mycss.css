@@ -1,0 +1,150 @@
+/* AFTER POP UP DESCRIPTIONS - PROJECT "Stack" "Description" */
+
+.proj-stack h5 {
+  color: #fff;
+  font-size: 50px;
+  font-family: "museo-sans", Arial, Verdana;
+  line-height: 72px;
+  letter-spacing: -5px;
+  float: left;
+  position: relative;
+  left:-200px;
+}
+.proj-stack p{
+  color: #fff;
+  font-size: 20px;
+  font-family: "museo-sans", Arial, Verdana; 
+  /* letter-spacing: -5px; */
+  line-height: 30px;
+  float: left;
+  height: 100px;
+  width: 350px;
+  position: relative;
+  bottom: -20px;
+  left: -130px;
+  
+}
+.proj-des h5{
+  color: #fff;
+  font-size: 50px;
+  font-family: "museo-sans", Arial, Verdana;
+  line-height: 72px;
+  letter-spacing: -5px;
+  float: left;
+  position: relative;
+  left:-200px;
+}
+.proj-des p{
+  color: #fff;
+  font-size: 20px;
+  font-family: "museo-sans", Arial, Verdana; 
+  /* letter-spacing: -5px; */
+  line-height: 30px;
+  float: left;
+  height: 100px;
+  width: 350px;
+  position: relative;
+  left: -135px;
+}
+
+/* iframe image */
+.float-right{
+  float: left;
+  width: 50%;
+  }
+
+  .mfp-hide {
+    display: none!important;
+}
+
+/* POP UP ENDS */
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif!important;
+    font-size: 14px!important;
+    line-height: 1.42857143!important;
+    color: #333!important;
+    background-color: #010304!important;
+    /* background-color:; */
+    
+}
+a {
+  color: aliceblue;
+  text-decoration: none!important;
+}
+
+.port_logo{
+/* relative - allows for location changes of image */
+position: relative; 
+top: -5px;
+
+}
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  background-color:black;
+  color: #afadad;
+  text-align: center;
+}
+.mainnav{
+  background-color: rgba(21,31,33,0.5);
+  border-bottom: 1px solid #dedede;
+  display: flex;
+  font-weight: 100;
+  justify-content: space-between;
+  padding: 15px 25px;
+  position: fixed;
+  width: 100%;
+  text-transform: uppercase;
+  top: 0;
+  z-index: 1000;
+}
+.mainheader{
+  background-image: url("http://getwallpapers.com/wallpaper/full/8/a/2/1354029-beautiful-web-wallpaper-1920x1080-macbook.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 30px;
+}
+.btn-primary {
+  color: #fff!important;
+  background-color: #337ab7!important;
+  border-color: #2e6da4!important;
+  padding-top: 10px!important;
+}
+
+.downlbtn{
+    width:200px;
+    display:inline-block;
+    overflow: auto;
+    white-space: nowrap;
+    margin:0px auto;
+    padding-top: 7px;
+
+  }
+.xxx{
+    padding-top: 7px;
+    display: inline;
+}
+
+/* ABOUT ME SECTION */
+.aboutme_content{
+  /* backg/round-image: url(https://apstra.com/wp-content/uploads/2018/04/background_black_and_blue_abstract_1920x750.jpg); */
+  /* background-image: url(https://ak7.picdn.net/shutterstock/videos/30049237/thumb/1.jpg); */
+  background-image: url(https://apstra.com/wp-content/uploads/2018/04/background_black_and_blue_abstract_1920x750.jpg);
+  background-size:cover;
+  height: 100vh;
+  width: 220vh;
+}
+
+
+
