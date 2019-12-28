@@ -1,0 +1,103 @@
+/* About me section - responsive */
+@media only screen and (max-width:1100px){
+    div.profile_div_container {
+      position: absolute;
+      right: 29%;
+      width: 100px;
+      height: 400px;
+    }
+    div.right_side {
+      color:#696969;
+      position: relative;
+      right: 30%;
+      word-wrap: break-word;
+      font-size: 20px;
+      float: right;
+    } 
+  
+    div.left_side img{
+      position: absolute;
+      padding: 15px 15px 15px 15px;
+      border-radius: 50%;
+      opacity: 0.86;
+      top: 90%;
+      filter: alpha(opacity=80);
+    }
+    div.left_side {
+      position: absolute;
+      align-self:center;
+      left: -100%;
+      width: 240px;
+      height: 240px;
+    }   
+    div.left_side .links {
+      position: absolute;
+      align-content: center;
+      padding-left: 40px;
+      padding-right: 40px;
+      top: 170%;
+  
+    }
+  }
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+  @media only screen and (max-device-width: 480px) {
+    div.right_side {
+      position: absolute;
+      color:#696969;
+      word-wrap: break-word;
+      float:right;
+      left:-115%;
+      width: 300px;
+    }
+    div.right_side p{
+      font-size: 15px;
+      text-align: center;
+    }
+  
+  }
+  
+  /* webpage zoom in - out */
+  @media only screen and (max-width: 1500px) {
+    .proj-stack h5 {
+      color:white;
+      font-size: 30px;
+      font-family: "museo-sans", Arial, Verdana;
+      line-height: 72px;
+      position: absolute;
+      left:auto;
+      top:-52%;
+      text-align: center;
+    }
+    .proj-stack p{
+    
+      position: absolute;
+      color:white;
+      font-size: 15px;
+      font-family: "museo-sans", Arial, Verdana; 
+      top: -40%;
+      right: auto;
+      text-align: center;
+      
+    }
+    .proj-des h5{
+      color:transparent;
+      font-size: 30px;
+      font-family: "museo-sans", Arial, Verdana;
+      float: left;
+      position: absolute;
+      bottom:-35%;
+      text-align: center;
+    }
+    .proj-des p{
+      position: absolute;
+      color:white;
+      font-size: 15px;
+      font-family: "museo-sans", Arial, Verdana; 
+      line-height: 30px;
+      height: 100px;
+      width: 350px;
+      bottom: -35%;
+      right: auto;
+      text-align: center;
+    }
+  }

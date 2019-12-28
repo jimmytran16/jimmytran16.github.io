@@ -1,5 +1,5 @@
 
-/* HOVERING OVER IMAGE WITH MESSAGE */bar
+/* HOVERING OVER IMAGE WITH MESSAGE */
 .projects span{
 	display: inline-block;
 }
@@ -8,10 +8,10 @@
     width:300px;
     position:relative;
  }
-  .textWithBlurredBg:hover a img{
+.textWithBlurredBg:hover a img{
     filter:blur(2px) brightness(60%);
     box-shadow:0 0 16px cyan;
-  }
+ }
    
   .textWithBlurredBg :not(img){
 	position:absolute;
@@ -24,7 +24,6 @@
     opacity:0;
     transition:.3s;
   }
-
 .fa-sign-in{
 	font-size: 100px;
 }
