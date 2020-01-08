@@ -69,7 +69,7 @@ body {
     font-size: 14px!important;
     line-height: 1.42857143!important;
     color: #333!important;
-    background-color: #010304!important;
+    background-color: black!important;
     /* background-color:; */
     
 }
@@ -150,11 +150,9 @@ top: -5px;
 
 /* ABOUT ME SECTION */
 .aboutme_content{
-  /* backg/round-image: url(https://apstra.com/wp-content/uploads/2018/04/background_black_and_blue_abstract_1920x750.jpg); */
-  /* background-image: url(https://ak7.picdn.net/shutterstock/videos/30049237/thumb/1.jpg); */
-  background-image: url(https://apstra.com/wp-content/uploads/2018/04/background_black_and_blue_abstract_1920x750.jpg);
+  background:linear-gradient( rgba(0, 0, 0), rgba(0, 0, 0, 0.65) ), url(https://www.forbes.com/forbes-insights/wp-content/uploads/2018/05/dell-background.jpg);
   background-size:cover;
-  height: 100vh;
+  height: 90vh;
   width: 220vh;
 }
 .aboutme{
