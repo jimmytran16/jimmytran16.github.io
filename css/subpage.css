@@ -1,0 +1,58 @@
+/* Positioning of the container div */
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 200px;
+}
+/* buttons */
+.sub-buttons{
+    margin-top: 20px;
+    width: 480px;
+    height: 200px;
+}
+.btn-source{
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    padding-top:40px;
+    margin-left: 1em;
+    margin-right: 1em;
+    
+  }
+.btn-website {
+    position: absolute;
+    bottom: 0;
+    right: 62%;
+    margin-left: 1em;
+    margin-right: 1em;
+    
+}
+
+/*div content for img and source/website buttons */
+.col-md-8 {
+    width: 55%;
+    height: 340px;
+}
+
+/* project name  */
+.container .my-project-title{
+    color:#337ab7;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*title content */
+.project-des h3{
+    font-family: inherit;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.1;
+    color:#337ab7;
+}
+/* title description */
+.project-des{
+    color: #c7c7c7;
+}
