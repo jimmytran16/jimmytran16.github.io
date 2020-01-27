@@ -41,7 +41,7 @@
   }
     /* styles for mobile browsers smaller than 480px; (iPhone) */
   @media only screen and (max-device-width: 480px) {
-    div.right_side {
+    div.right_side {  
       position: absolute;
       color:#696969;
       word-wrap: break-word;
@@ -53,8 +53,27 @@
       font-size: 15px;
       text-align: center;
     }
-  
+    /* adjust size for proj img, in subpage */
+    .row .col-md-8 .img-fluid{
+      width: 350px!important;
+    }
+    /* align buttons (website,source) in subpage */
+    .sub-buttons {
+      margin-top: 20px;
+      width: 480px;
+      height: 200px;
+      position: absolute;
+      top: 30px;
+      left: -15px;
   }
+  .proj_img{
+    width: 414px;
+  }
+  .dg-wrapper a {
+    width: 414px;
+    height: 200px;
+  }
+}
   
   /* webpage zoom in - out */
   @media only screen and (max-width: 1500px) {
