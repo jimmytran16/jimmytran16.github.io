@@ -116,7 +116,8 @@ top: -5px;
   right: -2000%;
 }
 .mainheader{
-  background-image: url("https://wallpapercave.com/wp/wp2848515.jpg");
+  /* background-image: url("https://wallpapercave.com/wp/wp2848515.jpg"); */
+  background-image: url("https://www.wallpaperflare.com/static/471/767/754/abstract-ae-plexus-blue-dot-wallpaper.jpg");
   background-size: cover;
   height: 100vh;
 }
