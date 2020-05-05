@@ -1,3 +1,9 @@
+html,body{
+  overflow-x: hidden;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
 /* About me section - responsive */
 @media only screen and (max-width:1100px){
     div.profile_div_container {
@@ -44,7 +50,7 @@
     img{
       width: 100%;
     }
-	div.right_side {
+    div.right_side {
       position: absolute;
       color:#696969;
       word-wrap: break-word;
