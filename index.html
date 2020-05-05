@@ -15,76 +15,84 @@
   <link rel="shortcut icon" href="../favicon.ico">
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="stylesheet" href="css/screencss.css">
+<style>
+    .its-a-wrap{
+        overflow-x: hidden;
+        height: 100%;
+    }
+</style>
 </head>
 <body>
-  <header class="mainheader">
-    <nav class="mainnav">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#"><img class="port_logo" src="images/portlogo_transparent.png" height="40px"
-              width="90p" alt=""></a>
+  <div class="its-a-wrap">
+    <header class="mainheader">
+        <nav class="mainnav">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#"><img class="port_logo" src="images/portlogo_transparent.png" height="40px"
+                  width="90p" alt=""></a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#aboutme">About Me</a></li>
+              <li><a href="resume/JimmyTranResume.pdf" download>
+                  Resume <span><i class="fa fa-cloud-download" aria-hidden="true"></i></span>
+                </a></li>
+              <li class="icon_clicks"><a href="https://www.github.com/jimmytran16" target="_blank"><i
+                    class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+              <li class="icon_clicks"><a href="https://www.linkedin.com/in/jimmyvt" target="_blank"><i
+                    class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="jumbotron aboutme" id="projects">
+        <h1 class="header_title_section"><i class="fa fa-file-code-o" aria-hidden="true"></i><b> My Latest Work</b></h1>
+      </div>
+      <section id="dg-container" class="dg-container">
+        <div id="projects" class="dg-wrapper textWithBlurredBg">
+          <a href="bookproject.html" class="more">
+            <img class="proj_img" src="images/proj1.JPG" alt="image01"><i class="fa fa-sign-in" aria-hidden="true"></i>
+          </a>
+          <a href="dnsproject.html" class="more">
+            <img class="proj_img" src="images/proj2.png" alt="image02"><i class="fa fa-sign-in" aria-hidden="true"></i>
+          </a>
+          <a href="shoprproject.html" class="more">
+            <img class="proj_img" src="images/background_main.png" alt="image03"><i class="fa fa-sign-in"
+              aria-hidden="true"></i>
+          </a>
+          <a href="hpsproject.html" class="more">
+            <img class="proj_img" src="images/hpsproject.png" alt="image04"><i class="fa fa-sign-in" aria-hidden="true"></i>
+          </a>
         </div>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#aboutme">About Me</a></li>
-          <li><a href="resume/JimmyTranResume.pdf" download>
-              Resume <span><i class="fa fa-cloud-download" aria-hidden="true"></i></span>
-            </a></li>
-          <li class="icon_clicks"><a href="https://www.github.com/jimmytran16" target="_blank"><i
-                class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
-          <li class="icon_clicks"><a href="https://www.linkedin.com/in/jimmyvt" target="_blank"><i
-                class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a></li>
-        </ul>
+        <nav>
+          <span class="dg-prev">&;</span>
+          <span class="dg-next">&gt;</span>
+        </nav>
+      </section>
+      <div class="jumbotron aboutme" id="aboutme">
+        <h1 class="header_title_section"><i class="fa fa-user-circle-o" aria-hidden="true"></i><b> About Me </b></h1>
       </div>
-    </nav>
-  </header>
-  <div class="jumbotron aboutme" id="projects">
-    <h1 class="header_title_section"><i class="fa fa-file-code-o" aria-hidden="true"></i><b> My Latest Work</b></h1>
-  </div>
-  <section id="dg-container" class="dg-container">
-    <div id="projects" class="dg-wrapper textWithBlurredBg">
-      <a href="bookproject.html" class="more">
-        <img class="proj_img" src="images/proj1.JPG" alt="image01"><i class="fa fa-sign-in" aria-hidden="true"></i>
-      </a>
-      <a href="dnsproject.html" class="more">
-        <img class="proj_img" src="images/proj2.png" alt="image02"><i class="fa fa-sign-in" aria-hidden="true"></i>
-      </a>
-      <a href="shoprproject.html" class="more">
-        <img class="proj_img" src="images/background_main.png" alt="image03"><i class="fa fa-sign-in"
-          aria-hidden="true"></i>
-      </a>
-      <a href="hpsproject.html" class="more">
-        <img class="proj_img" src="images/hpsproject.png" alt="image04"><i class="fa fa-sign-in" aria-hidden="true"></i>
-      </a>
-    </div>
-    <nav>
-      <span class="dg-prev">&;</span>
-      <span class="dg-next">&gt;</span>
-    </nav>
-  </section>
-  <div class="jumbotron aboutme" id="aboutme">
-    <h1 class="header_title_section"><i class="fa fa-user-circle-o" aria-hidden="true"></i><b> About Me </b></h1>
-  </div>
-  <div class="aboutme_content">
-    <div class="container profile_div_container">
-      <div class="left_side">
-        <img src="images/profilepic.jpg" alt="Avatar" height="220px" width="220px">
-        <div class="links"><a href="https://github.com/jimmytran16" target="_blank"><i class="fa fa-github fa-3x"
-              aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/in/jimmyvt" target="_blank"><i class="fa fa-linkedin-square fa-3x"
-              aria-hidden="true"></i></a>
+      <div class="aboutme_content">
+        <div class="container profile_div_container">
+          <div class="left_side">
+            <img src="images/profilepic.jpg" alt="Avatar" height="220px" width="220px">
+            <div class="links"><a href="https://github.com/jimmytran16" target="_blank"><i class="fa fa-github fa-3x"
+                  aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/jimmyvt" target="_blank"><i class="fa fa-linkedin-square fa-3x"
+                  aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="right_side">
+            <p>My name is Jimmy Tran. I am an aspiring software engineer with a love for problem-solving, and a strong
+              passion for technology.
+              The power of data manipulation has been something that has always intrigued me, through it's capabilities and
+              what it can do.
+              I love creating meaningful projects that will make immediate impact to the world.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="right_side">
-        <p>My name is Jimmy Tran. I am an aspiring software engineer with a love for problem-solving, and a strong
-          passion for technology.
-          The power of data manipulation has been something that has always intrigued me, through it's capabilities and
-          what it can do.
-          I love creating meaningful projects that will make immediate impact to the world.
-        </p>
-      </div>
-    </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
